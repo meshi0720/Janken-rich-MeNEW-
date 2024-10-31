@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>夕飯の献立ランダム選択</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <h2 id="date"></h2>
+    <h1>献立を考える苦痛からあなたを解放します</h1>
+    <img src="./img/logo.png" alt="logo">
+    <br>
+    <p>毎日の献立を決める、必ず毎日訪れるこの恐怖の時間、それを「MeNEW」が解決します</p>
+    <br>
+    <br>
+
+    <button id="generate">献立を決める!</button>
+    <h2 id="menu"></h2>
+    <img id="menu-image" src="" alt="メニュー画像" >
+<br>
+<br>
+<br>
+
+    <table id="history" border="1">
+        <thead>
+            <tr>
+                <th>日付</th>
+                <th>選択された料理</th>
+                <th>番号</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="script.js" defer></script> 
+</html>
